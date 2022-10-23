@@ -1,9 +1,19 @@
 import java.util.*; 
 
-public boolean CheckId(asuID) {
+public class PizzaOrder {
+
+public static boolean CheckId(String asuID) {
     if (asuID instanceof String) {
-        return true
+        return true;
     } else {
-        return false
+        return false;
     }
+}
+
+
+//main to test code
+public static void main(String[] args) {  
+    
+    System.out.println(PizzaOrder.CheckId("testcase"));
+}
 }
