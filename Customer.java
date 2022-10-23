@@ -24,4 +24,12 @@ public class Customer {
 	public PizzaOrder getOrder() {
 		return new PizzaOrder(pizza);
 	}
+
+		public static boolean CheckId(String asuID) {
+			if (asuID instanceof String) { //checking if ID is a string or not for now
+				return true;
+			} else {
+				return false;
+				}
+		}
 }
