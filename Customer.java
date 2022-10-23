@@ -21,6 +21,6 @@ public class Customer {
 	}
 
 	public PizzaOrder getOrder() {
-		return pizza;
+		return new PizzaOrder(pizza);
 	}
 }
