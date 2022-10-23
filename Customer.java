@@ -1,4 +1,5 @@
 import java.util.*; 
+package application;
 
 public class Customer {
 	//Instance Variables
@@ -6,9 +7,9 @@ public class Customer {
 	private String asuEmail;
 	private PizzaOrder pizza;
 
-	public Customer(String ID,  String email, PizzaOrder order) {
+	public Customer(String ID, PizzaOrder order) {
 		asuID = ID;
-		asuEmail = email;
+		asuEmail = ID + "@asu.edu";
 		pizza = new PizzaOrder(order)
 	}
 
