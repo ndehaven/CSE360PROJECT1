@@ -8,13 +8,13 @@ public class Customer {
 	private PizzaOrder pizza;
 
 	public Customer() {
-	
+		this.("?",null);
 	}
 
 	public Customer(String ID, PizzaOrder order) {
 		asuID = ID;
 		asuEmail = ID + "@asu.edu";
-		pizza = new PizzaOrder(order)
+		pizza = new PizzaOrder(order);
 	}
 
 	public String getID(){
