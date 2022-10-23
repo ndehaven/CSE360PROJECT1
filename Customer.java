@@ -7,6 +7,10 @@ public class Customer {
 	private String asuEmail;
 	private PizzaOrder pizza;
 
+	public Customer() {
+	
+	}
+
 	public Customer(String ID, PizzaOrder order) {
 		asuID = ID;
 		asuEmail = ID + "@asu.edu";
