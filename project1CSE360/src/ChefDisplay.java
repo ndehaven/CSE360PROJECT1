@@ -1,12 +1,13 @@
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import java.util.Stack;
 
 
 public class ChefDisplay {  
 
     @FXML
     void cookingStatus(ActionEvent event) {
-        PizzaOrder.setStatus("Ready to Cook");
+        customers.pop()
     }
 
     @FXML
