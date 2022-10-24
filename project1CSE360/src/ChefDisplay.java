@@ -7,7 +7,7 @@ public class ChefDisplay {
 
     @FXML
     void cookingStatus(ActionEvent event) {
-       CustomerList.getPop(); 
+        
     }
 
     @FXML
