@@ -16,4 +16,9 @@ public class CustomerList {
         customers.push(specCustomer);
     }
 
+
+
+    public CustomerList(CustomerList object) {
+        customers = object.customers;
+    }
 }
