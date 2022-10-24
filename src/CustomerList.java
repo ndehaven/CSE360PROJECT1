@@ -1,5 +1,5 @@
 import java.util.Stack;
-
+//Sentimental value class
 public class CustomerList {
     
     private Stack<Customer> customers = new Stack<Customer>();
